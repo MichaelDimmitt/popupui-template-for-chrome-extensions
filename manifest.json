@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Click to turn on/off"
+   },
+   "description": "Simple DOM Dash - Tracker for Listeners in the DOM to show how app performance is changing over time.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Simple DOM Dash - Tracker for Listeners in the DOM",
+   "permissions": [ "\u003Call_urls>", "tabs" ],
+   "short_name": "Simple Dom Dash",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1",
+   "web_accessible_resources": [ "*" ]
+}
